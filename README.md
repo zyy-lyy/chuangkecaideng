@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 创客彩灯
 
 2020年新工科联盟-Xilinx暑期学校（Summer School）项目
 队伍名称：zyylyy
@@ -13,3 +13,4 @@
 2.使用Vivado 2018.3进行综合生成bit文件。
 3.将bit文件移入tf卡的overlay文件夹
 4.下载至板卡并连接摄像头进行验证
+已实现的功能：外设摄像头识别到什么颜色时，板子上的rgb灯显示相应颜色。
