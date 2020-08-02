@@ -1,37 +1,15 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/zyy-lyy/yaoyaole/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zyy-lyy/yaoyaole/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+2020年新工科联盟-Xilinx暑期学校（Summer School）项目
+队伍名称：zyylyy
+小组成员：刘耀阳 张佑源
+项目名称：A05_创客彩灯
+主要功能：设计实现使板子上的rgb灯能随摄像头所识别的变化相同颜色。
+工具版本：Vivado 2018.3（VerilogHDL) ， Arduino1.8.9(C,C++)，upycraft
+板卡型号：xc7s15ftgb196-1
+外设：树莓ov5647
+开发板准备：
+1.编译仿真观察是否出错
+2.使用Vivado 2018.3进行综合生成bit文件。
+3.将bit文件移入tf卡的overlay文件夹
+4.下载至板卡并连接摄像头进行验证
